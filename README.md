@@ -52,9 +52,12 @@ http://localhost:8080
 
  ->API Endpoints
  -> Auth APIs
+ 
 POST /api/auth/register
 POST /api/auth/login
+
 -> Financial APIs
+
 POST /api/records -> Create record
 GET /api/records -> Get all records
 PUT /api/records/{id} -> Update record
